@@ -1,0 +1,71 @@
+body {
+  background-image: url(background.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+h1 {
+  text-align: center;
+  font-family: "Segoe UI", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 48px;
+  color: #ff6f61;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.about-us {
+  max-width: 700px; /* максимальная ширина блока — не будет растягиваться больше */
+  margin: 40px auto; /* отступ сверху и снизу 40px, по бокам — авто, чтобы центрировать */
+  padding: 20px; /* внутренний отступ — пространство между текстом и краями блока */
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.8
+  ); /* белый фон с прозрачностью 0.8 */
+  border-radius: 10px; /* скруглённые углы */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* тень вокруг блока, для объёма */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; /* шрифт текста */
+  color: #333; /* цвет текста — тёмно-серый */
+  line-height: 1.6; /* высота строки — чтобы текст был легче читаем */
+}
+
+.about-us h2 {
+  text-align: center; /* выравнивание заголовка по центру */
+  font-size: 32px; /* размер шрифта */
+  margin-bottom: 20px; /* отступ снизу под заголовком */
+  color: #ff6f61; /* цвет заголовка — коралловый */
+}
+.tarologist-profile {
+  display: flex;
+  align-items: flex-start;
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.85);
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  gap: 20px;
+}
+
+.tarologist-profile img {
+  width: 180px;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.profile-text h3 {
+  margin-top: 0;
+  color: #ff6f61;
+  font-size: 24px;
+}
+
+.profile-text p {
+  margin-top: 10px;
+  color: #333;
+  line-height: 1.5;
+}
